@@ -1,22 +1,5 @@
 function Create_Thomas_Tog () {
-    Thomas_Tog = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Enemy)
+    Thomas_Tog = sprites.create(assets.image`Thomas`, SpriteKind.Enemy)
 }
 sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
     game.setGameOverEffect(false, effects.splatter)
@@ -52,6 +35,7 @@ let Hero = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+Create_Thomas_Tog()
 game.onUpdate(function () {
     controller.moveSprite(Hero, 100, 100)
     scene.cameraFollowSprite(Hero)

@@ -1,0 +1,12 @@
+{
+    "image1": {
+        "data": "hwQQABAAAADQ0AAAAAAAAA0NAJmZmfIP0AAAmZiZ8g8NkJmZmJkCANCQmZmZmfIPDQAAmZiZ8g/Q//+fmJkCAA3//5+ZmfIPAAAREZiZ8g8AEPERkZkCAAAQEfGRmfIPABAR8ZGZ8g8AEPERAQAAAAAAEREAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Thomas"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
