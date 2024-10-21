@@ -5,10 +5,22 @@
         "tilemapTile": true
     },
     "tile1": {
-        "data": "hwQQABAAAADg7gDuDuDuAODuAO4O4O4A4O4A7g7g7gDg7gDuDuDuAODuAO4O4O4A4O4A7g7g7gDg7gDuDuDuAODuAO4O4O4A4O4A7g7g7gDg7gDuDuDuAODuAO4O4O4A4O4A7g7g7gDg7gDuDuDuAODuAO4O4O4A4O4A7g7g7gDg7gDuDuDuAA==",
+        "data": "hwQQABAAAADg7gDuDuDuAOB+AO4O4O4AIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi4O4A7g7g7gDg7gDuB+DuAODuAO4O4O4A4O4A7g7g7gDg7gDuDuDuAOD+AO4O4O4AIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi4O4A7g7g9wDg7gDuDuDuAA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
         "displayName": "Togspor lodret"
+    },
+    "tile2": {
+        "data": "hwQQABAAAAAAIgIAACAiAAAiAgAAICIA7iLi7u4uIu/uIuLu7i4i5+4i4u7uLiLuACICAAAgIgAAIgIAACAiAO4i4ufuLiLu7iLi7u4uIu7uIuLu7i4i7gAiAgAAICIAACICAAAgIgB+IuLu7i8i7u4i4u7uLiLu7iLi7u4uIu4AIgIAACAiAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor vandret"
+    },
+    "tile3": {
+        "data": "hwQQABAAAAAAIgIAACAiAAAiAgAAICIA7iLi7u4uIu/uIuLu7i4i5+4i4u7uLiLuACICAAAgIgAAIgIAACAiAO4i4ufuLiLu7iLi7u4uIu7uIuLu7i4i7gAiAgAAICIAACICAAAgIgB+IuLu7i8i7u4i4u7uLiLu7iLi7u4uIu4AIgIAACAiAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor vandret0"
     },
     "level1": {
         "id": "level1",
