@@ -52,7 +52,7 @@ function Sir_Topham_Hatt () {
 let Hero: Sprite = null
 let Randombevægelse = ""
 let Thomas_Tog: Sprite = null
-tiles.setCurrentTilemap(tilemap`level3`)
+tiles.setCurrentTilemap(tilemap`level1`)
 Create_Thomas_Tog()
 tiles.placeOnRandomTile(Thomas_Tog, sprites.castle.tilePath5)
 Randombevægelse_Thomas()
