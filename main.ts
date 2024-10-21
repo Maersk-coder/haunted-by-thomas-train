@@ -14,11 +14,14 @@ function Change_level (Level_nummer: string) {
         tiles.setCurrentTilemap(tilemap`level4`)
     }
 }
+function Sir_Topham_Hatt () {
+    Hero = sprites.create(assets.image`Sir Hatt`, SpriteKind.Player)
+}
 let Thomas_Tog: Sprite = null
+let Hero: Sprite = null
 tiles.setCurrentTilemap(tilemap`level3`)
 let Current_level = 1
-let Hero = sprites.create(assets.image`Sir Hatt`, SpriteKind.Player)
-Create_Thomas_Tog()
+Hero = sprites.create(assets.image`Sir Hatt`, SpriteKind.Player)
 game.onUpdate(function () {
     controller.moveSprite(Hero, 100, 100)
     scene.cameraFollowSprite(Hero)
