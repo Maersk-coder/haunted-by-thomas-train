@@ -32,7 +32,7 @@ function Change_level (Level_nummer: string) {
     }
 }
 let Thomas_Tog: Sprite = null
-tiles.setCurrentTilemap(tilemap`level4`)
+tiles.setCurrentTilemap(tilemap`level3`)
 let Current_level = 1
 let Hero = sprites.create(img`
     . . . . . . . . . . . . . . . . 
