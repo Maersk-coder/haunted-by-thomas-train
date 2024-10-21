@@ -8,6 +8,12 @@ namespace myTiles {
     export const tile2 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile3 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile4 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile5 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile6 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -155,8 +161,14 @@ namespace myTiles {
             case "tile1":return tile1;
             case "Togspor vandret":
             case "tile2":return tile2;
-            case "Togspor vandret0":
+            case "Togspor sving":
             case "tile3":return tile3;
+            case "Togspor sving0":
+            case "tile4":return tile4;
+            case "Togspor sving1":
+            case "tile5":return tile5;
+            case "Togspor sving3":
+            case "tile6":return tile6;
         }
         return null;
     })

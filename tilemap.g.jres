@@ -17,10 +17,28 @@
         "displayName": "Togspor vandret"
     },
     "tile3": {
-        "data": "hwQQABAAAAAAIgIAACAiAAAiAgAAICIA7iLi7u4uIu/uIuLu7i4i5+4i4u7uLiLuACICAAAgIgAAIgIAACAiAO4i4ufuLiLu7iLi7u4uIu7uIuLu7i4i7gAiAgAAICIAACICAAAgIgB+IuLu7i8i7u4i4u7uLiLu7iLi7u4uIu4AIgIAACAiAA==",
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwIiIAAAAAACIiIgAAACAiIiIiAAAAJyIiAgAAACAiIgAAAAAAICIAAAAAAAAiIgAAAAAAACICAAAAAAAnIgIAAADwACciAAAAcCcALyIAAAAiIgAiAgAAACIiACICAAAgIgIAIgIAACAiAA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
-        "displayName": "Togspor vandret0"
+        "displayName": "Togspor sving"
+    },
+    "tile4": {
+        "data": "hwQQABAAAAAAIgIAAC8iAAAiAgAAcCICACICAABwIiIAIiIAAAAiIgAvIgAAAAAiACAiAAAAAAAAACICAAAAAAAAIgIAAAAAAAAiIgIAAAAAAHAiIgIAAAAAACIiIgIAAAAAACIiIiIAAAAAACIiIgAAAAAAdy8iAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor sving0"
+    },
+    "tile5": {
+        "data": "hwQQABAAAAAAIgIAACAiACAiAgAAICIAIiIAAAAgIgAiIgAAACLyAHIHAAAAInIADwAAACAicgAAAAAAICIAAAAAAAAiIgAAAAAAACICAAAAAAAiIgIAAAAgIiJyAAAAIiIiIgIAAAAiIiIAAAAAACIiDwAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor sving1"
+    },
+    "tile6": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAIvJ3AAAAAAAiIiIAAAAAACIiIiIAAAAAACAiIiIAAAAAACAiIgcAAAAAACAiIgAAAAAAACAiAAAAAAAAICIAAAAAAAAAIgIAIgAAAAAi8gAiIgAAACIiACIiBwAAICIAICIHAAAgIgAAIvIAACAiAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor sving3"
     },
     "level1": {
         "id": "level1",
