@@ -17,24 +17,7 @@ function Change_level (Level_nummer: string) {
 let Thomas_Tog: Sprite = null
 tiles.setCurrentTilemap(tilemap`level3`)
 let Current_level = 1
-let Hero = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    `, SpriteKind.Player)
+let Hero = sprites.create(assets.image`Sir Hatt`, SpriteKind.Player)
 Create_Thomas_Tog()
 game.onUpdate(function () {
     controller.moveSprite(Hero, 100, 100)

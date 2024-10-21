@@ -4,6 +4,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Thomas"
     },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAPAAAAAAAAAA8AAAAAAAD/HxERAA8A8P8fHx8BCQD0/x8R8QGZSQT/HxHx8ZlJAP8fEfEBmUkE/x8fHwEJAPT/HxERAA8A8AAPAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Sir Hatt"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
