@@ -1,0 +1,69 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "tile1": {
+        "data": "hwQQABAAAAAA7g7g7gDuDgDuDuDuAO4OIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAO4O4O4A7g4A7g7g7gDuDgDuDuDuAO4OAO4O4O4A7g4A7g7g7gDuDgDuDuDuAO4OIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiAO4O4O4A7g4A7g7g7gDuDg==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor Lodret"
+    },
+    "tile3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIAAAAAACIiIgAAAAAiIiIiAAAAIiIiAgAAACAiIgIAAAAAICICAAAAAAAiIgAAAAAAACICAAAAAAAgIgIAAAAAACAiAAAAACIAIiIAAAAgIgAiAgAAACIiACICAAAgIgIAIgIAACAiAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor Højredrej op"
+    },
+    "tile4": {
+        "data": "hwQQABAAAAAAIgIAACAiAAAiAgAAICICACICAAAAIiIAIiIAAAAgIgAgIgAAAAAiACAiAgAAAAAAACICAAAAAAAAIiIAAAAAAAAgIgIAAAAAACAiIgIAAAAAACIiIgIAAAAAACIiIiIAAAAAACIiIgAAAAAAACIiAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor Venstredrej op"
+    },
+    "tile5": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAIiIAAAAAAAAiIiIAAAAAACIiIiIAAAAAACAiIiIAAAAAACAiIgIAAAAAACAiAgAAAAAAACIiAAAAAAAAICIAAAAAAAAgIgIAIgAAAAAiAgAiAgAAACIiACIiAAAAICIAICICAAAgIgAAIgIAACAiAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor Højredrej ned"
+    },
+    "tile6": {
+        "data": "hwQQABAAAAAAIgIAACAiACAiAgAAICIAIiIAAAAgIgAiAgAAACIiACIAAAAAIgIAAAAAACAiAgAAAAAAICIAAAAAAAAiIgAAAAAAICICAAAAACAiIgIAAAAgIiIiAAAAIiIiIgAAAAAiIiIAAAAAACIiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor Venstredrej ned"
+    },
+    "tile7": {
+        "data": "hwQQABAAAAAAIgIAICIiAAAiAiAiIiIAIiIiIiIvIu4iIiIi8i4i7iIi8v/uLiLuACICAAAgIgAAIgIAACAiAOAi4u7uIiLu4CLi7u4iIu7gIuLuIiIi7gAiAiIiIiIAIiIiIvIvIgAiIiIi7y4i7iIi8u/uLiLu4CLi7u4uIu4AIgIAACAiAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor T kryds"
+    },
+    "tile2": {
+        "data": "hwQQABAAAAAAIgIAACAiAAAiAgAAICIA7iLi7u4uIu7uIuLu7i4i7u4i4u7uLiLuACICAAAgIgAAIgIAACAiAO4i4u7uLiLu7iLi7u4uIu7uIuLu7i4i7gAiAgAAICIAACICAAAgIgDuIuLu7i4i7u4i4u7uLiLu7iLi7u4uIu4AIgIAACAiAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "Togspor vandret"
+    },
+    "level 1": {
+        "id": "level 1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDIwNjA2MDYwNjA2MDYwNjA1MDAwMDAwMDAwMDAwMDAwMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAxMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDYwMzA2MDQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "myTiles.tile1",
+            "myTiles.tile3",
+            "myTiles.tile7",
+            "myTiles.tile4",
+            "myTiles.tile6",
+            "myTiles.tile2"
+        ],
+        "displayName": "level 1"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
