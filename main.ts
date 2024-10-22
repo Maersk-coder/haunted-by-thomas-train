@@ -10,8 +10,15 @@ function Randombevægelse_Thomas () {
         Thomas_Tog.setVelocity(-50, 0)
     }
 }
-function Create_Thomas_Tog () {
-    Thomas_Tog = sprites.create(assets.image`Thomas`, SpriteKind.Enemy)
+function Change_level (Level_nummer: string) {
+    let Level_number = 0
+    if (Level_number == 1) {
+        tiles.setCurrentTilemap(tilemap`level1`)
+    } else if (Level_number == 2) {
+        tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
+    } else if (Level_number == 3) {
+        tiles.setCurrentTilemap(tilemap`level0`)
+    }
 }
 function Adgang_til_bevægelse_Thomas (Enemysprite: string) {
     let direction: string[] = []
@@ -36,18 +43,11 @@ scene.onHitWall(SpriteKind.Enemy, function (sprite, location) {
 sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
     game.setGameOverEffect(false, effects.splatter)
 })
-function Change_level (Level_nummer: string) {
-    let Level_number = 0
-    if (Level_number == 1) {
-        tiles.setCurrentTilemap(tilemap`level1`)
-    } else if (Level_number == 2) {
-        tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
-    } else if (Level_number == 3) {
-        tiles.setCurrentTilemap(tilemap`level3`)
-    }
-}
 function Sir_Topham_Hatt () {
     Hero = sprites.create(assets.image`Sir Hatt`, SpriteKind.Player)
+}
+function Create_Thomas_Tog () {
+    Thomas_Tog = sprites.create(assets.image`Thomas`, SpriteKind.Enemy)
 }
 let Hero: Sprite = null
 let Randombevægelse = ""
