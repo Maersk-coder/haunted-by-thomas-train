@@ -39,11 +39,11 @@ sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSp
 function Change_level (Level_nummer: string) {
     let Level_number = 0
     if (Level_number == 1) {
-        tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
+        tiles.setCurrentTilemap(tilemap`level1`)
     } else if (Level_number == 2) {
         tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
     } else if (Level_number == 3) {
-        tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
+        tiles.setCurrentTilemap(tilemap`level3`)
     }
 }
 function Sir_Topham_Hatt () {
