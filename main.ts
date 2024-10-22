@@ -22,16 +22,16 @@ function Change_level (Level_nummer: string) {
 }
 function Adgang_til_bevægelse_Thomas (Enemysprite: string) {
     let direction: string[] = []
-    if (!(Thomas_Tog.tileKindAt(TileDirection.Left, sprites.builtin.forestTiles0))) {
+    if (!(Thomas_Tog.tileKindAt(TileDirection.Left, sprites.castle.tileGrass1))) {
         direction.push("Left")
     }
-    if (!(Thomas_Tog.tileKindAt(TileDirection.Top, sprites.builtin.forestTiles0))) {
+    if (!(Thomas_Tog.tileKindAt(TileDirection.Top, sprites.castle.tileGrass1))) {
         direction.push("Up")
     }
-    if (!(Thomas_Tog.tileKindAt(TileDirection.Right, sprites.builtin.forestTiles0))) {
+    if (!(Thomas_Tog.tileKindAt(TileDirection.Right, sprites.castle.tileGrass1))) {
         direction.push("Right")
     }
-    if (!(Thomas_Tog.tileKindAt(TileDirection.Bottom, sprites.builtin.forestTiles0))) {
+    if (!(Thomas_Tog.tileKindAt(TileDirection.Bottom, sprites.castle.tileGrass1))) {
         direction.push("Down")
     }
     return direction
@@ -54,7 +54,7 @@ let Randombevægelse = ""
 let Thomas_Tog: Sprite = null
 tiles.setCurrentTilemap(tilemap`level1`)
 Create_Thomas_Tog()
-tiles.placeOnRandomTile(Thomas_Tog, sprites.castle.tilePath5)
+tiles.placeOnRandomTile(Thomas_Tog, assets.tile`myTile`)
 Randombevægelse_Thomas()
 game.onUpdate(function () {
     controller.moveSprite(Hero, 100, 100)
