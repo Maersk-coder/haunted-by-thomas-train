@@ -15,9 +15,9 @@ function Change_level (Level_nummer: string) {
     if (Level_number == 1) {
         tiles.setCurrentTilemap(tilemap`level1`)
     } else if (Level_number == 2) {
-        tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
+        tiles.setCurrentTilemap(tilemap`level4`)
     } else if (Level_number == 3) {
-        tiles.setCurrentTilemap(tilemap`level0`)
+        tiles.setCurrentTilemap(tilemap`level7`)
     }
 }
 function Adgang_til_bevægelse_Thomas (Enemysprite: string) {
@@ -52,7 +52,7 @@ function Create_Thomas_Tog () {
 let Hero: Sprite = null
 let Randombevægelse = ""
 let Thomas_Tog: Sprite = null
-tiles.setCurrentTilemap(tilemap`level1`)
+tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
 Create_Thomas_Tog()
 tiles.placeOnRandomTile(Thomas_Tog, assets.tile`myTile`)
 Randombevægelse_Thomas()
