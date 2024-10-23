@@ -16,9 +16,12 @@ function Change_level (Level_nummer: string) {
         tiles.setCurrentTilemap(tilemap`level1`)
     } else if (Level_number == 2) {
         tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
+        tiles.placeOnRandomTile(Thomas_Tog, assets.tile`Togspor lodret`)
     } else if (Level_number == 3) {
         tiles.setCurrentTilemap(tilemap`level0`)
+        tiles.placeOnRandomTile(Thomas_Tog, assets.tile`Togspor lodret`)
     }
+    tiles.placeOnRandomTile(Hero, assets.tile`Togspor vandret`)
 }
 function Adgang_til_bevægelse_Thomas (Enemysprite: string) {
     let direction: string[] = []
@@ -49,14 +52,16 @@ function Sir_Topham_Hatt () {
 function Create_Thomas_Tog () {
     Thomas_Tog = sprites.create(assets.image`Thomas`, SpriteKind.Enemy)
 }
-let Hero: Sprite = null
-let Randombevægelse = ""
 let Thomas_Tog: Sprite = null
+let Randombevægelse = ""
+let Hero: Sprite = null
 tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
+Sir_Topham_Hatt()
+tiles.placeOnRandomTile(Hero, assets.tile`Togspor vandret`)
 Create_Thomas_Tog()
-tiles.placeOnRandomTile(Thomas_Tog, assets.tile`myTile`)
+tiles.placeOnRandomTile(Hero, assets.tile`Togspor lodret`)
 Randombevægelse_Thomas()
 game.onUpdate(function () {
-    controller.moveSprite(Hero, 100, 100)
-    scene.cameraFollowSprite(Thomas_Tog)
+    controller.moveSprite(Hero, 75, 75)
+    scene.cameraFollowSprite(Hero)
 })
