@@ -41,6 +41,25 @@ d . . 9 9 . f f . 1 1 1 1 . . .
 . . . . 4 4 . 4 4 . . . . . . . 
 . . . f f . . . f f . . . . . . 
 `;
+            case "image3":
+            case "Olie":return img`
+. . . . . . . f f . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . f f f f f f . . . . . 
+. . . . f f f f f f f f . . . . 
+. . . f f f f f f f f f f . . . 
+. . f f f f f f f f f f f f . . 
+. . f f f f f f f f 2 1 f f . . 
+. f f f f f f f f f 2 1 f f f . 
+. f f f f f f f f f 2 1 f f f . 
+. f f f f f f f f f 2 1 f f f . 
+. f f f f f f f f f 2 1 f f f . 
+. f f f f f f f f 2 1 f f f f . 
+. . f f f f f f f 2 1 f f f . . 
+. . . f f f f f f f f f f . . . 
+. . . . f f f f f f f f . . . . 
+. . . . . f f f f f f . . . . . 
+`;
         }
         return null;
     })

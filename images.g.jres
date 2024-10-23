@@ -9,6 +9,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Sir Hatt"
     },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAPD//wAAAADw////DwAAAP//////AADw//////8PAP/////////w///////////////////////////////w/////y/y/wD//yIiEvH/APD/ERHx/w8AAP//////AAAA8P///w8AAAAA8P//AAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Olie"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
