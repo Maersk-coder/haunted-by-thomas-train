@@ -4,15 +4,15 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Thomas"
     },
-    "image3": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAABEREREBAAAQ8f///xEAABH/////HwAQ8f////8fABD//////x8AEf//////HxDx//////8fEP////8f/x8Q////EfH/HxAR//////8fABDx////HxEAABH///8fAAAAEBEREREAAAAAAAAAAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "Olie"
-    },
     "image2": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAA8A8AAA8BEBCQD0AAD/8QGZSQQAAP8R8ZlJAAAA//EBmUkEAADwEQEJAPQAAPAAAA8A8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "data": "hwQQABAAAAAAAAAAAAAAAAAPAAAAAAAAAA8AAAAAAAD/HxERAA8A8P8fHx8BCQD0/x8R8QGZSQT/HxHx8ZlJAP8fEfEBmUkE/x8fHwEJAPT/HxERAA8A8AAPAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Sir Hatt"
+    },
+    "image3": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAREQAAAAAAEPH/EQAAAAAR//8fAQAAEfH///8BABDx/////xEAEP//////HxAR//////8fEf///////x8R8f///x//HwDx//8R8f8RABHx/////wEAABH///8RAAAAEPH//wEAAAAAERERAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Olier"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

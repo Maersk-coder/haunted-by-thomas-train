@@ -22,35 +22,16 @@ d . . 9 9 . f f . 1 1 1 1 . . .
 . f f . f f . f f . f f . . . . 
 . . . . . . . . . . . . . . . . 
 `;
-            case "image3":
-            case "Olie":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . 1 1 1 1 . . . . . 
-. . . . . . 1 1 f f 1 . . . . . 
-. . . . 1 1 1 f f f 1 1 . . . . 
-. . . 1 1 f f f f f f 1 1 . . . 
-. . 1 1 f f f f f f f f 1 1 . . 
-. 1 1 f f f f f f f f f f 1 . . 
-. 1 f f f f f f f f f f f 1 . . 
-. 1 f f f f f f f 1 f f f 1 . . 
-. 1 f f f f f f f 1 f f f 1 . . 
-. 1 f f f f f f f 1 f f f 1 . . 
-. 1 f f f f f f 1 f f f f 1 . . 
-. 1 f f f f f f f f f f f 1 . . 
-. 1 f f f f f f f f f 1 1 1 . . 
-. 1 1 f f f f f f f f 1 . . . . 
-. . 1 1 1 1 1 1 1 1 1 1 . . . . 
-`;
             case "image2":
             case "Sir Hatt":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . f f f . . . . . . . . 
 . . . f f f f f f f . . . . . . 
-. . . . 1 1 1 1 1 . . . . . . . 
-. . . . 1 f 1 f 1 . . . . . . . 
+. . . f f f f f f f . . . . . . 
+. f f f f f f f f f f f . . . . 
+. . . 1 1 1 1 1 1 1 . . . . . . 
+. . . 1 f 1 1 1 f 1 . . . . . . 
+. . . 1 1 1 1 1 1 1 . . . . . . 
+. . . 1 f 1 1 1 f 1 . . . . . . 
+. . . 1 1 f f f 1 1 . . . . . . 
 . . . . 1 1 1 1 1 . . . . . . . 
 . . . . . . f . . . . . . . . . 
 . . . f 9 9 9 9 9 f . . . . . . 
@@ -59,6 +40,25 @@ d . . 9 9 . f f . 1 1 1 1 . . .
 . . . . . 4 4 4 . . . . . . . . 
 . . . . 4 4 . 4 4 . . . . . . . 
 . . . f f . . . f f . . . . . . 
+`;
+            case "image3":
+            case "Olier":return img`
+. . . . . . . . 1 1 . . . . . . 
+. . . . . . . 1 1 1 . . . . . . 
+. . . . . . . 1 f 1 1 1 . . . . 
+. . . . . 1 1 1 f f f 1 . . . . 
+. . . . 1 1 f f f f f 1 1 . . . 
+. . . . 1 f f f f f f f 1 1 . . 
+. . . 1 1 f f f f f f f f 1 1 . 
+. . 1 1 f f f f f f f f f f 1 . 
+. 1 1 f f f f f f f 1 f f f 1 . 
+. 1 f f f f f f f f 1 f f f 1 . 
+. 1 f f f f f f f f 1 f f f 1 . 
+. 1 f f f f f f f 1 f f f f 1 . 
+. . 1 f f f f f f f f f 1 1 . . 
+. . 1 1 f f f f f f f f 1 . . . 
+. . . 1 1 1 f f f f 1 1 . . . . 
+. . . . . 1 1 1 1 1 1 . . . . . 
 `;
         }
         return null;
