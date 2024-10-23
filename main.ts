@@ -52,7 +52,7 @@ function Create_Thomas_Tog () {
 let Hero: Sprite = null
 let Randombevægelse = ""
 let Thomas_Tog: Sprite = null
-tiles.setCurrentTilemap(tilemap`level1`)
+tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
 Create_Thomas_Tog()
 tiles.placeOnRandomTile(Thomas_Tog, assets.tile`myTile`)
 Randombevægelse_Thomas()
