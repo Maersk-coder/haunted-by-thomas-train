@@ -39,12 +39,22 @@ function Adgang_til_bevægelse_Thomas (Enemysprite: string) {
     }
     return direction
 }
+function Spawnenemies () {
+    for (let value of tiles.getTilesByType(assets.tile`kryds`)) {
+        Create_Thomas_Tog()
+        tiles.placeOnTile(Thomas_Tog, value)
+        tiles.setTileAt(value, assets.tile`kryds`)
+        Randombevægelse_Thomas()
+    }
+}
 scene.onHitWall(SpriteKind.Enemy, function (sprite, location) {
     Randombevægelse_Thomas()
     console.log(Thomas_Tog.x)
 })
 sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSprite) {
+    game.gameOver(false)
     game.setGameOverEffect(false, effects.splatter)
+    game.setGameOverMessage(false, "GAME OVER!")
 })
 function Sir_Topham_Hatt () {
     Hero = sprites.create(assets.image`Sir Hatt`, SpriteKind.Player)
@@ -52,18 +62,13 @@ function Sir_Topham_Hatt () {
 function Create_Thomas_Tog () {
     Thomas_Tog = sprites.create(assets.image`Thomas`, SpriteKind.Enemy)
 }
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
-    game.gameOver(false)
-    game.setGameOverMessage(false, "GAME OVER!")
-})
 let Thomas_Tog: Sprite = null
 let Randombevægelse = ""
 let Hero: Sprite = null
 tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
 Sir_Topham_Hatt()
 tiles.placeOnRandomTile(Hero, assets.tile`Togspor vandret`)
-Create_Thomas_Tog()
-tiles.placeOnRandomTile(Hero, assets.tile`Togspor lodret`)
+Spawnenemies()
 Randombevægelse_Thomas()
 game.onUpdate(function () {
     controller.moveSprite(Hero, 75, 75)
