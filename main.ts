@@ -52,6 +52,10 @@ function Sir_Topham_Hatt () {
 function Create_Thomas_Tog () {
     Thomas_Tog = sprites.create(assets.image`Thomas`, SpriteKind.Enemy)
 }
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+    game.gameOver(false)
+    game.setGameOverMessage(false, "GAME OVER!")
+})
 let Thomas_Tog: Sprite = null
 let Randombevægelse = ""
 let Hero: Sprite = null
