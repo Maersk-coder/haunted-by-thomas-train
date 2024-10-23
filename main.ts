@@ -11,7 +11,6 @@ function Randombevægelse_Thomas () {
     }
 }
 function Change_level (Level_nummer: string) {
-    let Level_number = 0
     if (Level_number == 1) {
         tiles.setCurrentTilemap(tilemap`level1`)
     } else if (Level_number == 2) {
@@ -78,14 +77,20 @@ function Create_Thomas_Tog () {
 let Thomas_Tog: Sprite = null
 let Randombevægelse = ""
 let Hero: Sprite = null
+let Level_number = 0
 let Food: Sprite = null
-tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
+info.setScore(0)
+Food = sprites.create(assets.image`Olie`, SpriteKind.Food)
 tiles.placeOnRandomTile(Food, assets.tile`Togspor lodret`)
 Sir_Topham_Hatt()
+Level_number = 1
+Change_level("1")
+if (info.score() == 1) {
+    Change_level("2")
+}
 tiles.placeOnRandomTile(Hero, assets.tile`Togspor vandret`)
 Spawnenemies()
 Randombevægelse_Thomas()
-Food = sprites.create(assets.image`Olie`, SpriteKind.Food)
 game.onUpdate(function () {
     controller.moveSprite(Hero, 75, 75)
     scene.cameraFollowSprite(Hero)
