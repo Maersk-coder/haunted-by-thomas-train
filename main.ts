@@ -23,6 +23,9 @@ function Change_level (Level_nummer: string) {
     }
     tiles.placeOnRandomTile(Hero, assets.tile`Togspor vandret`)
 }
+sprites.onDestroyed(SpriteKind.Food, function (sprite) {
+    Olie()
+})
 function Adgang_til_bevægelse_Thomas (Enemysprite: string) {
     let direction: string[] = []
     if (!(Thomas_Tog.tileKindAt(TileDirection.Left, sprites.castle.tileGrass1))) {
@@ -38,6 +41,9 @@ function Adgang_til_bevægelse_Thomas (Enemysprite: string) {
         direction.push("Down")
     }
     return direction
+}
+function Olie () {
+    Food = sprites.create(assets.image`Olie`, SpriteKind.Food)
 }
 function Spawnenemies () {
     for (let value of tiles.getTilesByType(assets.tile`kryds`)) {
@@ -59,17 +65,27 @@ sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSp
 function Sir_Topham_Hatt () {
     Hero = sprites.create(assets.image`Sir Hatt`, SpriteKind.Player)
 }
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
+    info.changeScoreBy(1)
+    sprites.destroy(otherSprite)
+    if (true) {
+        tiles.placeOnRandomTile(Food, assets.tile`Togspor lodret`)
+    }
+})
 function Create_Thomas_Tog () {
     Thomas_Tog = sprites.create(assets.image`Thomas`, SpriteKind.Enemy)
 }
 let Thomas_Tog: Sprite = null
 let Randombevægelse = ""
 let Hero: Sprite = null
+let Food: Sprite = null
 tiles.setCurrentTilemap(tilemap`Level 2 Tilemap`)
+tiles.placeOnRandomTile(Food, assets.tile`Togspor lodret`)
 Sir_Topham_Hatt()
 tiles.placeOnRandomTile(Hero, assets.tile`Togspor vandret`)
 Spawnenemies()
 Randombevægelse_Thomas()
+Food = sprites.create(assets.image`Olie`, SpriteKind.Food)
 game.onUpdate(function () {
     controller.moveSprite(Hero, 75, 75)
     scene.cameraFollowSprite(Hero)
