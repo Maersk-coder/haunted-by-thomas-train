@@ -44,14 +44,6 @@ function Adgang_til_bevægelse_Thomas (Enemysprite: string) {
 function Olie () {
     Food = sprites.create(assets.image`Olie`, SpriteKind.Food)
 }
-function Spawnenemies () {
-    for (let value of tiles.getTilesByType(assets.tile`kryds`)) {
-        Create_Thomas_Tog()
-        tiles.placeOnTile(Thomas_Tog, value)
-        tiles.setTileAt(value, assets.tile`kryds`)
-        Randombevægelse_Thomas()
-    }
-}
 scene.onHitWall(SpriteKind.Enemy, function (sprite, location) {
     Randombevægelse_Thomas()
     console.log(Thomas_Tog.x)
@@ -89,7 +81,7 @@ if (info.score() == 1) {
     Change_level("2")
 }
 tiles.placeOnRandomTile(Hero, assets.tile`Togspor vandret`)
-Spawnenemies()
+Create_Thomas_Tog()
 Randombevægelse_Thomas()
 game.onUpdate(function () {
     controller.moveSprite(Hero, 75, 75)
